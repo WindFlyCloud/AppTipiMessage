@@ -78,7 +78,7 @@
     _photoText = [[UITextField alloc]initWithFrame:CGRectMake(20, 80, CGRectGetWidth(self.view.frame)-40, 30)];
     _photoText.borderStyle = UITextBorderStyleRoundedRect;
     _photoText.placeholder = @"手机号码";
-    _photoText.text = @"13914086292";
+    _photoText.text = @"13914";
     [self.view addSubview:_photoText];
     
     _messageText = [[UITextField alloc]initWithFrame:CGRectMake(20, 130, CGRectGetWidth(self.view.frame)-40, 30)];
